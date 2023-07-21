@@ -224,10 +224,6 @@ m-vless
 clear
 m-trojan
 ;;
-5 | 05)
-clear
-xlord
-;;
 6 | 06)
 clear
 m-trial
@@ -346,6 +342,10 @@ bw
 21)
 clear
 clearcache
+;;
+5)
+clear
+xlord
 ;;
 22)
 clear
