@@ -1,7 +1,7 @@
 #!/bin/bash
 # COLOR VALIDATION
 clear
-y='\033[1;33m' #yellow
+y="\033[1;33m"
 BGX="\033[42m"
 CYAN="\033[96m"
 z="\033[96m"
@@ -184,7 +184,7 @@ echo -e " ${z}┗━━━━━━━━━━━━━━━━━━━━━
 echo -e " ${z}┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓${NC}"
 echo -e "${z} ┃$NC \e[1;97;101m         INFORMASI PANEL              $NC${z} ┃$NC"
 echo -e " ${z}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛${NC}"
-echo "${z} ┃ $y  SSH$NC.     : $status_ssh"
+echo "${z} ┃ $y  SSH$NC      : $status_ssh"
 echo "${z} ┃ $y  NGINX$NC    : $status_nginx"
 echo "${z} ┃  $y XRAY$NC     : $status_xray"
 echo "${z} ┃  $y WS-ePRO$NC  : $status_ws_epro"
