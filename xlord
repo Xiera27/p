@@ -197,7 +197,7 @@ echo -e " ${z}┗━━━━━━━━━━━━━━━━━━━━━
 echo -e "${z} ┃ $y   Version Script $cy=$NC V 3.5${NC}"
 echo -e "${z} ┃ $y   Nick Client    $cy=$NC $username${NC}"
 echo -e "${z} ┃  $y  Script Status  $cy=$NC $sts${NC}"
-echo -e "${z} ┃  $y  Expiry script  $cy=$green $exp$NC ($r$certifacate${NC}Days)${NC}"
+echo -e "${z} ┃  $y  Expiry script  $cy=$green $exp$NC($r$certifacate${NC} Days)${NC}"
 echo -e " ${z}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛${NC}"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu"
